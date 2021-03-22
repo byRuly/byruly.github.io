@@ -1,0 +1,36 @@
+{
+  "data": [
+    [
+      "4",
+      "Charmander",
+      "true",
+      "true",
+      "false",
+      "true"
+    ],
+    [
+      "6",
+      "Charizard",
+      "true",
+      "true",
+      "true",
+      "true"
+    ],
+    [
+      "202",
+      "Wobbuffet",
+      "true",
+      "true",
+      "true",
+      "false"
+    ],
+	[
+      "485",
+      "Heatran",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  ]
+}
