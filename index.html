@@ -197,16 +197,21 @@
 	</footer>
 	
 	<script>
+		var simple_checkbox = function ( data, type, full, meta ) {
+			var is_checked = data == true ? "checked" : "";
+			return '<input type="checkbox" class="checkbox" ' + is_checked + ' />';
+		}
+	
 		$(document).ready(function() {
 			$('#example').DataTable({
 				ajax: "data.txt",
                 columns: [
                     { "data": "id" },
                     { "data": "name" },
-                    { "data": "shiny" },
-                    { "data": "registered" },
-                    { "data": "trade-self" },
-                    { "data": "trade-others" }
+                    { "data": "shiny", "render": simple_checkbox },
+                    { "data": "registered", "render": simple_checkbox },
+                    { "data": "trade-self", "render": simple_checkbox },
+                    { "data": "trade-others", "render": simple_checkbox }
                 ],
 				"language": {
 					"processing": "Procesando...",
