@@ -1,0 +1,34 @@
+[
+   {
+      "id":4,
+      "name":"Charmander",
+      "shiny":true,
+      "registered":true,
+      "trade-self":false,
+      "trade-others":true
+   },
+   {
+      "id":6,
+      "name":"Charizard",
+      "shiny":true,
+      "registered":true,
+      "trade-self":true,
+      "trade-others":true
+   },
+   {
+      "id":202,
+      "name":"Wobbuffet",
+      "shiny":true,
+      "registered":true,
+      "trade-self":true,
+      "trade-others":false
+   },
+   {
+      "id":485,
+      "name":"Heatran",
+      "shiny":true,
+      "registered":true,
+      "trade-self":true,
+      "trade-others":true
+   }
+]
