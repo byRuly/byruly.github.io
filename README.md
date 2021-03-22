@@ -1,1 +1,0 @@
-# byruly.github.io
