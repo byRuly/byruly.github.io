@@ -224,6 +224,15 @@
 		$(document).ready(function() {
 			$('#example').DataTable({
 				ajax: "data.txt",
+				dataSrc: "",
+                columns: [
+                    { "data": "id" },
+                    { "data": "name" },
+                    { "data": "shiny" },
+                    { "data": "registered" },
+                    { "data": "trade-self" },
+                    { "data": "trade-others" }
+                ]
 				language: {
 					"processing": "Procesando...",
 					"lengthMenu": "Mostrar _MENU_ registros",
